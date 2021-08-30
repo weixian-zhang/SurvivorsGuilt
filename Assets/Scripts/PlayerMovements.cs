@@ -17,8 +17,6 @@ public class PlayerMovements : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-
         _animator = GetComponent<Animator>();
 
         charController = GetComponent<CharacterController>();

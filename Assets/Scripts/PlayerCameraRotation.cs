@@ -20,7 +20,7 @@ public class PlayerCameraRotation : MonoBehaviour
         RotatePlayerWithMouse();
     }
 
-       private void RotatePlayerWithMouse() {
+    private void RotatePlayerWithMouse() {
 
         float mouseX = Input.GetAxis("Mouse X") * MouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * MouseSensitivity * Time.deltaTime;
